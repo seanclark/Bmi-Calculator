@@ -35,7 +35,7 @@
           <button type="button" class="btn btn-info" onclick="calcBmi()">Calculate your BMI</button>
           <button type="button" class="btn btn-info" onclick="resetBmi()">Reset</button><br>
           <hr>
-          <span style = "margin-top: 20px"><p id="displayBmi"></p></span>
+         <p id="displayBmi"></p>
         </form>
       </div>
       <div class="col-sm">
@@ -56,6 +56,7 @@
       document.getElementById("displayBmi").innerHTML =
       "Your body mass index number (BMI) is: " + Math.round((weight/Math.pow(heightTotal, 2) * 703));
       }
+      //displays the calculated results
     const bmiDisplay = document.getElementById("displayBmi");
     const resetBmi = () => {
       document.getElementById("bmiForm").reset();
