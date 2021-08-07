@@ -1,7 +1,6 @@
 html {
     height: 100%;
   }
-  
   body {
     width: 100%;
     /* background-image: url(sizes.jpeg); */
@@ -11,10 +10,6 @@ html {
   
   nav {
     margin-bottom: 50px;
-  }
-  
-  button {
-    float: left;
   }
   
   #btn {
@@ -37,3 +32,5 @@ html {
     font-size: 20px;
     float: left;
   }
+  
+  
