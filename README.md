@@ -1,4 +1,4 @@
-# bmi-calculator
+# Bmi-Calculator
 Web utility used to calculate an individual's Body Mass Index based on user entered Height and Weight.
 Live site here: https://seanclark.github.io/Bmi-Calculator/
 Calculations are done within the HTML file with Javascript. The entered height in feet and inches is converted
